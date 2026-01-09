@@ -346,10 +346,12 @@ a {
 
 }
 
+
+
 .git{
   
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 15px;
+  /* font-weight: bold; */
   color: white;
   cursor: pointer;
   padding-left: 30px;
@@ -505,4 +507,26 @@ z-index: 1;
   transform: scale(1.2);
 }
 
+.footer{
+  background-color: #343d68;
+  padding: 1.5rem 0;
+  margin-top: 4rem;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
 
+.nav-items-footer{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+} 
+
+.fut{
+  width: 150px;
+  font-size: 20px;
+  cursor: pointer;
+  justify-content: center;
+  gap: 3rem;
+  background-color: rgb(150, 187, 187);
+}
